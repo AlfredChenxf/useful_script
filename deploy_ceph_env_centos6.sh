@@ -46,8 +46,8 @@ pip install argparse
 cd ..
 
 # Install fdf-ceph
-svn co http://svn.schoonerinfotech.net/svn/schooner-trunk/ht_delivery/qa/fdf-ceph
-cd fdf-ceph
+git clone https://github.com/ceph/ceph
+cd ceph
 ./autogen.sh
 ./configure
 make
